@@ -1,0 +1,64 @@
+.repository__item{
+    margin-top: 29px;
+    margin-bottom: 24px;
+    background: #fff;
+    border-radius: 6px;
+    /*padding: 24px 32px;*/
+    width: 877px;
+    height: 112px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: start;
+    /*align-items: flex-start;*/
+    /*padding: 24px 32px;*/
+    /*gap: 16px;*/
+
+    /*position: absolute;*/
+    /*width: 877px;*/
+    /*height: 112px;*/
+    /*left: 433px;*/
+    /*top: 171px;*/
+}
+
+.repository__link{
+    text-decoration: none;
+}
+
+.repository__link:hover{
+    text-decoration: underline;
+    color: #0064EB;
+}
+
+.repository__title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #0064EB;
+    margin-bottom: 16px;
+    padding-left: 32px;
+
+}
+
+.repository__text{
+    font-weight: 400;
+    font-size: 16px;
+    height: 20px;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 32px;
+}
+
+@media screen and (max-width: 768px) { 
+    .repository__item{
+        padding: 12px 16px; 
+    }
+    .repository__title{
+        font-size: 18px;
+    }
+    .repository__text{
+        font-size: 13px;
+    }
+}

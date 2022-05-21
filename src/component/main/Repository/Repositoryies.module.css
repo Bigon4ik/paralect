@@ -1,0 +1,25 @@
+.RepositoryItem {
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-right: 56px;
+}
+.Pagination{
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+.totalRepositoriesCount{
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-right: 56px;
+
+}
+
+

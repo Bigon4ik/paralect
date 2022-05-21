@@ -1,0 +1,32 @@
+.NotRepository{
+    position: absolute;
+    width: 240px;
+    height: 165px;
+    left: 751px;
+    top: 269px;
+}
+.text{
+    position: absolute;
+    height: 31px;
+    /*left: 54.98%;*/
+    /*right: 27.23%;*/
+    top: calc(50% - 31px/2 + 51.5px);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+
+    text-align: center;
+
+    color: #808080;
+
+
+}
+.imgNoRepo{
+    position: absolute;
+    left: 15.45%;
+    right: 15.45%;
+    top: 21.82%;
+    bottom: 21.82%;
+}

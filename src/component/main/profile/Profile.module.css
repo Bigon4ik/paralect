@@ -1,0 +1,97 @@
+.Profile{
+   display: flex;
+    height:800px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+ padding-left: 20px;
+ padding-right: 96px;
+    /*padding: 20px;*/
+}
+.name{
+ font-weight: 600;
+ font-size: 26px;
+ color: #000;
+
+ margin-bottom: 12px;
+}
+.linkUserName{
+ font-weight: 400;
+ font-size: 18px;
+ color: #0064EB;
+ text-decoration: none;
+}
+.following{
+
+
+}
+.followers{
+
+}
+.imgUser{
+
+ height: 280px;
+ width: 280px;
+ padding-top: 11px;
+ /*flex-direction: column;*/
+ /*align-items: flex-start;*/
+ /*justify-content: center;*/
+ /*margin-top: 39px;*/
+ /*margin-left: 57px;*/
+ border-radius: 50%;
+}
+.profile__link:hover{
+ text-decoration: underline;
+}
+
+.profile__follows{
+ margin-top: 25px;
+ display: flex;
+
+ flex-direction: row;
+}
+
+.profile__inner{
+ font-size: 16px;
+ font-weight: 400;
+
+ margin-right: 16px;
+ display: flex;
+ align-items: center;
+}
+
+.profile__inner img{
+ margin-right: 3px;
+}
+
+.profile__inner:last-child{
+ margin-right: 0;
+}
+
+@media screen and (max-width: 1028px) {
+ .main__profile {
+  margin-right: 40px;
+ }
+}
+
+
+
+@media screen and (max-width: 768px) {
+ .main__profile{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 40px;
+ }
+ .profile__img {
+  width:200px;
+  height: 200px;
+ }
+ .profile__follows{
+  display: flex;
+  flex-direction: column;
+ }
+ .profile__link{
+  font-size: 14px;
+ }
+}

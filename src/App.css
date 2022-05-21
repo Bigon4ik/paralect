@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #E5E5E5;
 }
 
 .App-logo {
@@ -22,6 +23,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.loader {
+  position: absolute;
+  top: 15%;
+  left:48%;
+  margin: 0 auto;
+  border: 8px solid #97ecec; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
 }
 
 .App-link {

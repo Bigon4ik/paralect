@@ -1,0 +1,18 @@
+.InitialStateUserFound {
+    display: flex;
+    height: 62px;
+    width: 210px;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #808080;
+    position: absolute;
+    left: 42.31%;
+    right: 42.31%;
+    top: calc(50% - 62px / 2 + 67px);
+}
