@@ -1,37 +1,26 @@
-.repository__item{
+.repository_item{
     margin-top: 29px;
     margin-bottom: 24px;
     background: #fff;
     border-radius: 6px;
-    /*padding: 24px 32px;*/
     width: 877px;
     height: 112px;
-
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     text-align: start;
-    /*align-items: flex-start;*/
-    /*padding: 24px 32px;*/
-    /*gap: 16px;*/
-
-    /*position: absolute;*/
-    /*width: 877px;*/
-    /*height: 112px;*/
-    /*left: 433px;*/
-    /*top: 171px;*/
 }
 
-.repository__link{
+.repository_link{
     text-decoration: none;
 }
 
-.repository__link:hover{
+.repository_link:hover{
     text-decoration: underline;
     color: #0064EB;
 }
 
-.repository__title{
+.repository_title{
     font-weight: 500;
     font-size: 24px;
     color: #0064EB;
@@ -40,7 +29,7 @@
 
 }
 
-.repository__text{
+.repository_text{
     font-weight: 400;
     font-size: 16px;
     height: 20px;
@@ -52,13 +41,13 @@
 }
 
 @media screen and (max-width: 768px) { 
-    .repository__item{
+    .repository_item{
         padding: 12px 16px; 
     }
-    .repository__title{
+    .repository_title{
         font-size: 18px;
     }
-    .repository__text{
+    .repository_text{
         font-size: 13px;
     }
 }

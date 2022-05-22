@@ -9,13 +9,13 @@ type PropsRepositoryType = {
 
 export const Repository = (props: PropsRepositoryType) => {
     return (
-        <div className={s.repository__item}>
+        <div className={s.repository_item}>
             <div>
-                <a target="_blank" className={s.repository__link} rel="noreferrer" href={props.href}>
-                    <h2 className={s.repository__title}>{props.name}</h2>
+                <a target="_blank" className={s.repository_link} rel="noreferrer" href={props.href}>
+                    <h2 className={s.repository_title}>{props.name}</h2>
                 </a>
 
-                <p className={s.repository__text}>
+                <p className={s.repository_text}>
                     {props.title ? props.title : null}
                 </p>
             </div>

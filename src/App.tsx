@@ -4,10 +4,21 @@ import {InitialState} from './component/pages/InitialState/InitialState';
 import {Header} from './component/header/Header';
 import {InitialUserNotFound} from './component/pages/InitialStateUserNotFound/InitialStateUserNotFound';
 import {Navigate, Route, Routes, useNavigate} from 'react-router-dom';
-import {DataType, ProfileGit} from './component/main/ProfileGit/ProfileGit';
+import {ProfileGit} from './component/main/ProfileGit/ProfileGit';
 import axios from 'axios';
 
+export type DataType={
+    login:string
+    id: string
+    avatar_url:string
+    html_url: string,
+    repos_url: string,
+    name: string,
+    followers: number,
+    following: number,
+    public_repos:number,
 
+}
 function App() {
     const PATH = {
         INITIAL_STATE: '/',

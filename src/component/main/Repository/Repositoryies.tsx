@@ -3,7 +3,7 @@ import s from './Repositoryies.module.css';
 import {Repository} from './RepositoryItem/Repository';
 import {Pagination} from '../../pagination/pagination';
 import axios from 'axios';
-import {DataType} from '../ProfileGit/ProfileGit';
+import {DataType} from '../../../App';
 
 type RepositoryItemType={
     id:string,

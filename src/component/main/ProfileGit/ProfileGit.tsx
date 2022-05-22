@@ -3,20 +3,8 @@ import s from './ProfileGit.module.css';
 import {Repositoryies} from '../Repository/Repositoryies';
 import {Profile} from '../profile/Profile';
 import {NotRepository} from '../../pages/NotRepository/NotRepository';
+import {DataType} from '../../../App';
 
-
-export type DataType={
-    login:string
-    id: string
-    avatar_url:string
-    html_url: string,
-    repos_url: string,
-    name: string,
-    followers: number,
-    following: number,
-    public_repos:number,
-
-}
 export type ProfileGitPropsType = {
     data: DataType
 }
